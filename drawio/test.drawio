@@ -1,9 +1,201 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T02:17:00.987Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.9" etag="AcNJQVdaNYipuqBxJPzL" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T06:40:12.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="yFR_X0y_oYf4FMi8kOFs" version="21.6.9" type="github">
   <diagram name="第 1 页" id="bZpao4SQzhubovC4iQOP">
-    <mxGraphModel>
+    <mxGraphModel dx="1417" dy="1027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="zOIRGuzp_y8PJll8Rqjs-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="123" y="180" as="targetPoint" />
+            <mxPoint x="123" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="123" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-64" target="zOIRGuzp_y8PJll8Rqjs-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-64" value="如果kwd是数字，&lt;br&gt;请求判断是否为商品？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="33" y="150" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-65" value="不是商品" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="123" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-66" value="是商品" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="203" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-69" target="zOIRGuzp_y8PJll8Rqjs-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="123" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-69" value="是否为多选？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="33" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-70" value="存历史" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="123" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-71" value="记录选择&lt;br&gt;{ kwd: &#39;&#39; }" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-72" value="直接跳商品详情" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="165" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-75" target="zOIRGuzp_y8PJll8Rqjs-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-75" target="zOIRGuzp_y8PJll8Rqjs-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="233" y="490" />
+              <mxPoint x="233" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-75" value="kwd非数字，&lt;br&gt;请求判断外链？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="33" y="460" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="zOIRGuzp_y8PJll8Rqjs-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="123" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-78" target="zOIRGuzp_y8PJll8Rqjs-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-78" value="有外链，jumpUrl = 外链" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="43" y="550" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-80" target="zOIRGuzp_y8PJll8Rqjs-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-80" value="jumpUrl 追加统一参数，例如url上没有tab就拼上当前页面的curTab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="28" y="650" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-81" value="有jumoUrl直接用，&lt;br&gt;没有就根据searchType等参数创建对应业务线的链接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="43" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-82" value="点击&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;直搜、历史、item&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;{ kwd: &#39;&#39;,&amp;nbsp;jumpUrl: &#39;&#39;&amp;nbsp;}&lt;br&gt;走handleSearch收口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="54" y="20" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-83" value="非多选" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="123" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-84" value="多选" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="208" y="260" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-87" target="zOIRGuzp_y8PJll8Rqjs-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-87" target="zOIRGuzp_y8PJll8Rqjs-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-87" value="callBackEventKey&lt;br&gt;是否走回调？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="33" y="750" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-88" value="跳转jumpUrl" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="263" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-89" value="不走回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="193" y="748" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-92" target="zOIRGuzp_y8PJll8Rqjs-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-92" target="zOIRGuzp_y8PJll8Rqjs-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-92" value="isFromList 从列表来的，但jumpUrl不是再到列表去" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="33" y="850" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-93" value="走回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="123" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-94" value="从列表来，&lt;br&gt;但是jumpUrl不是再到列表去的&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="193" y="840" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-96" target="zOIRGuzp_y8PJll8Rqjs-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-96" value="sendEvent(callBackEventKey, {url,kwd}&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;回调回去，如果是列表来的，参数加type=&#39;pageReload&#39;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="23" y="975" width="200" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-97" value="页面pop" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="63" y="1075" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-98" value="不是从列表来的，例如高搜；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="38" y="928" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-100" target="zOIRGuzp_y8PJll8Rqjs-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-100" value="点击联想词&lt;br&gt;{clickName&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;url&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;moduleId&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;item&lt;/span&gt;}&lt;br&gt;走handleAssociateClick" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="30" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-101" value="url追加统一参数&lt;br&gt;生成jumpUrl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="370" as="sourcePoint" />
+            <mxPoint x="860" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="310" />
+              <mxPoint x="480" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-102" value="有jumpUrl，&lt;br&gt;且模块为2-旅游产品，6-热门玩法，28-行程天数，或者没有 clickName时，&lt;br&gt;直接跳jumpUrl" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="712" y="250" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="zOIRGuzp_y8PJll8Rqjs-121">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-118" target="zOIRGuzp_y8PJll8Rqjs-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-118" value="有callBackEventKey，&lt;br&gt;且&lt;span style=&quot;background-color: initial;&quot;&gt;从列表来的，jumpUrl也是到列表去的&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="729" y="410" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOIRGuzp_y8PJll8Rqjs-121" target="zOIRGuzp_y8PJll8Rqjs-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-121" value="sendEvent(callBackEventKey, {url, type&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;回调回去，参数加type=&#39;pageReload&#39;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="580" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-122" value="true&lt;br&gt;列表场景" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="865" y="525" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-123" value="false，&lt;br&gt;高搜场景" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="659" y="420" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-124" value="页面pop" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="670" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-125" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="375" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOIRGuzp_y8PJll8Rqjs-133" value="&lt;p style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;其他场景，有clickName时，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;走handleSearch，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;同时&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;moduleId == 1&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 9.8pt;&quot;&gt;|| (moduleId == 7&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 9.8pt;&quot;&gt;&amp;nbsp;&amp;amp;&amp;amp; item?.type != &#39;url&#39;)时，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 9.8pt;&quot;&gt;不掉商品id和外链&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="180" width="240" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
